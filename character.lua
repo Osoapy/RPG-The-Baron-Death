@@ -1,7 +1,9 @@
 local character = {}
 
-function character.new(name)
-    character.name = name
+function character.new()
+    function character.setName(name)
+        character.name = name
+    end
 
     function character.setPopularName(popularName)
         character.popularName = popularName
@@ -27,8 +29,17 @@ function character.new(name)
         character.additionalDetails = additionalDetails
     end
 
+    character.attribute = {[1] = 1, [2] = 1, [3] = 1, [4] = 1, [5] = 1, [6] = 1}
+
+    character.attributeNames = {[1] = "Corpo", [2] = "Agilidade", [3] = "Carisma", [4] = "Inteligência", [5] = "Mental", [6] = "instinto"}
+
+    character.fieldNames = {[1] = "Nome", [2] = "Nome Popular", [3] = "Cultura", [4] = "Poder", [5] = "Restrições do Poder", [6] = "Habilidade de personagem", [7] = "Detalhes adicionais", [8] = "Itens", [9] = "Fontes de dano", [10] = "Lore"}
+
+    character.pointFields = {[1] = "PV", [2] = "PS", [3] = "CA"}
+  
     function character.setCorpse(corpse)
         character.attribute[1] = corpse
+        character.pv = corpse * 3 + 20
     end
 
     function character.setAgility(agility)
@@ -37,10 +48,12 @@ function character.new(name)
 
     function character.setCharisma(charisma)
         character.attribute[3] = charisma
+        character.ca = charisma * 2 + 10
     end
 
     function character.setIntelligence(intelligence)
         character.attribute[4] = intelligence
+        character.ps = 100 + 5 * intelligence
     end
 
     function character.setMental(mental)
