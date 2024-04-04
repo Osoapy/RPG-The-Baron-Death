@@ -28,27 +28,27 @@ function character.new(name)
     end
 
     function character.setCorpse(corpse)
-        character.corpse = corpse
+        character.attribute[1] = corpse
     end
 
     function character.setAgility(agility)
-        character.agility = agility
+        character.attribute[2] = agility
     end
 
     function character.setCharisma(charisma)
-        character.charisma = charisma
+        character.attribute[3] = charisma
     end
 
     function character.setIntelligence(intelligence)
-        character.intelligence = intelligence
+        character.attribute[4] = intelligence
     end
 
     function character.setMental(mental)
-        character.mental = mental
+        character.attribute[5] = mental
     end
 
     function character.setInstinct(instinct)
-        character.instinct = instinct
+        character.attribute[6] = instinct
     end
 
     function character.setItens(itens)

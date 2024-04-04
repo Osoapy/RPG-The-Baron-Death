@@ -4,7 +4,9 @@ local main = {
     createFile = function(character)
         local file = io.open(character.name .. ".txt", "w")
         if file then
-            file:write("Azazel: 45HP")
+            for i = 1, 6, 1 do
+                file:write(character.attribute[i] .. "\n")
+            end
         end
     end
 }

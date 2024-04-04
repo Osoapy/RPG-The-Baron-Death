@@ -7,11 +7,13 @@ Will = 1
 Choices = {
     [1] = function ()
         local actualCharacter = require("character")
+    
         IOFunctions.breakLines(5)
         IOFunctions.betweenSigns("You chose 1, so let's build a character!")
+    
         IOFunctions.breakLines(1)
-        Write("Insert the character's name: ")
-        actualCharacter.new(io.read())
+
+        IOFunctions.characterInterview(actualCharacter)
 
         STFunctions.createFile(actualCharacter)
     end,
