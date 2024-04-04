@@ -1,5 +1,4 @@
 -- Defining global variables
-
 local equalSigns = function (string)
     local function equalOrPlus(leng, sense)
         if leng % 2 == 0 then
@@ -39,12 +38,28 @@ end
 -- Defining what I'll export
 
 local main = {
-  menu = function ()
+  mainMenu = function ()
       equalSigns("[3] List characters  [4] Delete character")
       print("[1] Create character [2] Alter character")
       print("[3] List characters  [4] Delete character")
       print("[5] Emulate battle   [6] Exit")
       equalSigns("[3] List characters  [4] Delete character")
+  end,
+
+  equalSigns = function (string)
+      equalSigns(string)
+  end,
+
+  betweenSigns = function (string)
+      equalSigns(string)
+      print(string)
+      equalSigns(string)
+  end,
+
+  breakLines = function (number)
+      for i = 1, number, 1 do
+          print()
+      end
   end
 }
 
