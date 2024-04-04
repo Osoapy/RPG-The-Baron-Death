@@ -4,28 +4,37 @@
 
 ### This is a example of what we'll storage:
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=
 DETALHES DO PERSONAGEM
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=
 
 *Nome:* Jimmy Saturn Letter
+
 *Nome Popular:* Eleven's Train
+
 *Cultura:* São
+
 *Poder:* Controla Facas.
+
 *Condições do Poder* {
     - Só consegue usar seu poder caso esteja se movimentando em relação a sua posição segundos atrás;
     - Só consegue Controlar lâminas de pequeno porte como facas, canivetes, etc.
 }
+
 *Habilidade de Personagem:* Aparência inofensiva. Ninguém suspeitaria de um velho quase incapaz de andar no trem.
+
 *Detalhes Adicionais:* Sempre está usando uma jaqueta azul e um fedora que combina com os tons escuros da vestimenta.
 
 PV: 26
+
 PS: 115
+
 CA: 12
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ATRIBUTOS E SKILLS
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 =] 2 - CORPO
 
 [0] atletismo
@@ -80,9 +89,9 @@ ATRIBUTOS E SKILLS
 [0] sobrevivência
 [1] empatia 
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ITENS E LORE
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 *Itens* {
     - Facas de arremesso x8

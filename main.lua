@@ -8,14 +8,14 @@ Choices = {
         local actualCharacter = require("character")
         actualCharacter.new()
 
-        IOFunctions.breakLines(5)
+        IOFunctions.asciiArt("Anchor")
         IOFunctions.betweenSigns("You chose 1, so let's build a character!")
-
-        IOFunctions.breakLines(1)
+        IOFunctions.asciiArt("Anchor")
 
         IOFunctions.characterInterview(actualCharacter)
 
         STFunctions.createFile(actualCharacter)
+        IOFunctions.asciiArt("Anchor")
     end,
     [2] = "2",
     [3] = "3",
