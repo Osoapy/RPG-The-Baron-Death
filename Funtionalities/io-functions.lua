@@ -58,7 +58,7 @@ local main = {
 
     characterInterview = function (actualCharacter)
         io.write("Insert the character's name: ")
-        actualCharacter.setName(io.read())
+        actualCharacter.setName(string.lower(io.read()))
 
         io.write("Insert the character's popular name: ")
         actualCharacter.setPopularName(io.read())
@@ -117,7 +117,7 @@ local main = {
         if name == "anchor" then
               print("                    ___             \n                   /   \\            \n                  |  o  |           \n                   \\   /            \n            ________) (________     \n           |                   |    \n           '------.     .------'    \n                   |   |            \n                   |   |            \n                   |   |            \n                   |   |            \n        /\\         |   |         /\\ \n       /_ \\        /   \\        / _\\\n         \\ '.    .'     '.    .' /  \n          \\  '--'         '--'  /   \n           '.                 .'    \n             '._           _.'      \n                `'-.   .-'`         \n                    \\ /             \n                     `              ")
       elseif name == "camera" then
-          print("        .---.             \n        |[X]|             \n        _.==._.\"\"\"\"\".___n__      \n        d __ ___.-''-. _____b     \n        |[__]  /.\"\"\"\".\\ _   |     \n        |     // /\"\"\\ \\\\_)  |     \n        |     \\\\ \\__/ //    |     \n        |pentax\\`.__.\'/     |     \n        \\=======`-..-\'======/     \n         `-----------------\'")
+          print("        .---.             \n        |[X]|             \n         _.==._.\"\"\"\"\".___n__      \n        d __ ___.-''-. _____b     \n        |[__]  /.\"\"\"\".\\ _   |     \n        |     // /\"\"\\ \\\\_)  |     \n        |     \\\\ \\__/ //    |     \n        |pentax\\`.__.\'/     |     \n        \\=======`-..-\'======/     \n         `-----------------\'")
       end
   end
 }

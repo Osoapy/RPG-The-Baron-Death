@@ -41,3 +41,5 @@ luac.out
 
 .replit
 replit.nix
+*.txt
+charactersList.txt
