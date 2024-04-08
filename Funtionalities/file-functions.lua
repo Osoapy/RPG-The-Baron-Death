@@ -145,6 +145,35 @@ local main = {
             -- Printing the results
             character.print()
         end
+    end,
+
+
+    delete = function(name)
+        os.remove(name .. ".txt")
+        local list = {}
+        local bool = 1
+        local index = 1
+        local listFile = io.open("Funtionalities/charactersList.txt", "r")
+        for line in listFile:lines() do
+            list[index] = line
+            index = index + 1
+        end
+
+        listFile:close()
+
+        for i = 1, index, 1 do
+            if list[i] == name .. ".txt" then
+                table.remove(list, i)
+            end
+        end
+
+        os.remove("Funtionalities/charactersList.txt")
+        listFile = io.open("Funtionalities/charactersList.txt", "w")
+        for i, value in ipairs(list) do
+            listFile:write(value)
+        end
+
+        io.close(listFile)
     end
 }
 

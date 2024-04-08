@@ -42,7 +42,7 @@ local main = {
         equalSigns("[3] List characters  [4] Delete character")
         print("[1] Create character [2] Alter character")
         print("[3] List characters  [4] Delete character")
-        print("[5] Emulate battle   [6] Exit")
+        print("[5] Exit")
         equalSigns("[3] List characters  [4] Delete character")
     end,
 

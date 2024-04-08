@@ -38,16 +38,25 @@ Choices = {
               IOFunctions.betweenSigns("You chose 3, so let's list all disponible characters!")
               IOFunctions.asciiArt("camera")
 
-              local list = ""
               STFunctions.getCharacterList()
 
               IOFunctions.asciiArt("camera")
           end,
-    [4] = "4",
-    [5] = "5",
+    [4] = function ()
+      IOFunctions.asciiArt("Anchor")
+      IOFunctions.betweenSigns("You chose 4, so let's burn down a character!")
+      IOFunctions.asciiArt("Anchor")
+
+      io.write("Enter the character's name: ")
+      characterName = io.read()
+      STFunctions.delete(characterName)
+      print("The character was deleted!")
+
+      IOFunctions.asciiArt("Anchor")
+          end
 }
 
-while(Will ~= 6) do
+while(Will ~= 5) do
     IOFunctions.mainMenu()
     IOFunctions.breakLines(1)
     io.write("-) ")
