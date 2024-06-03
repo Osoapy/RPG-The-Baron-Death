@@ -106,5 +106,3 @@ ITENS E LORE
     - Adaga: 1d8 + 3; x2
     - Manipular facas: 2d6 + 4; x1,5
 }
-
-Estamos falando de ninguém mais ninguém menos que Jimmy Saturn, o assassino as 11, em sua infância pegava os trens da gloriosa cidade de londres para conseguir levar comida fresca (tirando as várias horas de viagem) e dinheiro (dos frutos vendidos na cidade) pra casa. Tudo andava perfeitamente até a sua fase adulta, na qual muitos trens pararam de ser utilizados e ele teve de começar a usar o metrô, nada demais se não fosse por uma gangue de adolescentes que roubaram o ganho do mês inteiro. Passar fome vendo a grande plantação que tinha o fez se tornar o sequestrador as 11, vendendo pessoas (em sua maioria gente mais nova) em pedaços pros traficantes de órgãos que melhor pagassem.
